@@ -21,14 +21,19 @@ A desktop application designed to transcribe audio and video files (MP3, MP4) in
 
 ## 📥 Installation & Usage
 
-### Option 1: Run via Executable (Windows)
-You can run the application without installing Python.
-1. Go to the [`build/`](./build) folder in this repository.
-2. Download and run `voice2txt.exe`.
+### Prerequisites
+Before running or building the project, you need to download **FFmpeg**.
+1. Download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html).
+2. Extract the `ffmpeg.exe` file.
+3. Place `ffmpeg.exe` inside the project folder at: `src/ffmpeg/ffmpeg.exe`.
+   *(Create the `ffmpeg` folder inside `src` if it doesn't exist)*
 
-### Option 2: Run from Source
+---
+
+### Option 1: Run from Source (For Developers)
+If you want to run the python script directly:
+
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Kingteera/Your-Repo-Name.git](https://github.com/Kingteera/Your-Repo-Name.git)
    cd Your-Repo-Name
-
